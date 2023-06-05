@@ -8,8 +8,8 @@ In meinem Projekt werde ich Bilder aus Botanische Garten zeigen. Ich werde sie i
 - Bootstrap
 
 ### Entscheidungsmatrix
-             | **Auswahl 1** | **Auswahl 2** | **Auswahl 3**
--------------|---------------|---------------|--------------
+                 | **Auswahl 1** | **Auswahl 2** | **Auswahl 3**
+-----------------|---------------|---------------|--------------
 **Kriterien**    | Tailwind      | Material UI   | Bootstrap
 Erfahrung        | 3             | 1             | 1
 Lernkurve        | 2             | 3             | 3
