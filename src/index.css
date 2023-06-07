@@ -21,11 +21,27 @@ code {
     @apply flex flex-col items-center bg-bgImg h-screen w-screen bg-cover bg-fixed pt-8;
   }
 
-  .navigation {
-    @apply flex bg-[#474035] opacity-80 justify-center items-center gap-5 text-3xl p-5 text-white w-4/5 rounded;
+  .navigationBar {
+    @apply flex bg-[#474035] opacity-80 justify-center items-center gap-5 text-3xl p-5 text-white rounded w-full;
   }
 
   .navItem {
     @apply bg-black bg-opacity-70 rounded p-2 w-1/5 flex justify-center items-center;
+  }
+
+  .navigationBlur {
+    @apply backdrop-blur-md w-4/5 rounded;
+  }
+
+  .homePage {
+    @apply h-screen w-screen flex justify-center items-center;
+  }
+
+  .titleContainer {
+    @apply bg-[#474035] opacity-80 rounded flex justify-center text-white text-6xl text-center tracking-widest leading-normal pt-20 pb-20;
+  }
+
+  .homeContainerBlur {
+    @apply backdrop-blur-md w-3/5 rounded;
   }
 }
