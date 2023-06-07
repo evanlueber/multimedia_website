@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from '../Components/Navigation';
+import ImageMagnifier from "../Components/ImageMagnifier";
 
 const Home = () => {
   return (
@@ -23,10 +24,13 @@ const Home = () => {
         </div>
         <div className="pictureContainer">
             <h2>Image magnifier</h2>
-            {/*https://dev.to/anxiny/create-an-image-magnifier-with-react-3fd7*/}
+            <ImageMagnifier
+              width={"200px"}
+              src="/img/weg.jpg"
+            />
         </div>
         <div className="pictureContainer">
-            Gallery
+            <h2>Gallery</h2>
         </div>
       </div>
     </div>
