@@ -24,10 +24,24 @@ const Home = () => {
         </div>
         <div className="pictureContainer">
             <h2>Image magnifier</h2>
-            <ImageMagnifier
-              width={"200px"}
-              src="/img/weg.jpg"
-            />
+            <div className="imageContainer">
+              <ImageMagnifier
+                width={"350px"}
+                src="/img/weg.jpg"
+              />
+            </div>
+            <div className="imageContainer">
+              <ImageMagnifier
+                width={"350px"}
+                src="/img/glaskuppel.jpg"
+              />
+            </div>
+            <div className="imageContainer">
+              <ImageMagnifier
+                width={"350px"}
+                src="/img/glaskuppe_orangePflanze.jpg"
+              />
+            </div>
         </div>
         <div className="pictureContainer">
             <h2>Gallery</h2>

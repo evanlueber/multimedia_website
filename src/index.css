@@ -54,11 +54,15 @@ code {
   }
 
   .pictureContainer {
-    @apply w-full h-[35rem] bg-white;
+    @apply w-full h-[35rem] bg-white flex flex-row;
   }
 
   .titleWrapper {
     @apply min-h-full flex justify-center items-center -mb-96;
     height: calc(100vh - 7.75rem);
+  }
+
+  .imageContainer {
+    @apply border border-black rounded;
   }
 }
