@@ -18,7 +18,11 @@ code {
 
 @layer components {
   .App {
-    @apply flex flex-col items-center bg-bgImg h-screen w-screen bg-cover bg-fixed pt-8;
+    @apply bg-bgImg min-h-screen w-full bg-cover bg-fixed;
+  }
+
+  .navigationWrapper {
+    @apply w-full flex justify-center h-[7.75rem] pt-8;
   }
 
   .navigationBar {
@@ -34,7 +38,7 @@ code {
   }
 
   .homePage {
-    @apply h-screen w-screen flex justify-center items-center;
+    @apply min-h-full w-full;
   }
 
   .titleContainer {
@@ -43,5 +47,18 @@ code {
 
   .homeContainerBlur {
     @apply backdrop-blur-md w-1/2 rounded;
+  }
+
+  .pictureIdeas {
+    @apply flex flex-col justify-center items-center gap-96;
+  }
+
+  .pictureContainer {
+    @apply w-full h-[40rem] bg-white ;
+  }
+
+  .titleWrapper {
+    @apply min-h-full flex justify-center items-center -mb-96 ;
+    height: calc(100vh - 7.75rem);
   }
 }

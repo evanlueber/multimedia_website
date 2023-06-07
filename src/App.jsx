@@ -4,14 +4,12 @@ import About from './About/page';
 import Contact from './Contact/page'
 import Imprint from './Imprint/page'
 import Offers from './Offers/page'
-import Navigation from './Components/Navigation';
 import Home from './Home/page';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navigation />
         <Routes>
           <Route path="/" Component={Home} />
           <Route path="/about" Component={About} />
