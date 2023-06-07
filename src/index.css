@@ -38,10 +38,10 @@ code {
   }
 
   .titleContainer {
-    @apply bg-[#474035] opacity-80 rounded flex justify-center text-white text-6xl text-center tracking-widest leading-normal pt-20 pb-20;
+    @apply bg-[#474035] opacity-80 rounded flex justify-center text-white text-5xl text-center tracking-widest leading-normal p-16;
   }
 
   .homeContainerBlur {
-    @apply backdrop-blur-md w-3/5 rounded;
+    @apply backdrop-blur-md w-1/2 rounded;
   }
 }
