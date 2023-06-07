@@ -10,15 +10,24 @@ const Home = () => {
             <div className="homeContainerBlur">
               <div className="titleContainer">
                 <h1>
-                  Willkommen in dem Botanischen Garten der Universität Zürich
+                  Willkommen auf der Multimedia Website des Botanischen Gartens der Universität Zürich
                 </h1>
               </div>
             </div>
       </div>
-        <div className="pictureContainer"></div>
-        <div className="pictureContainer"></div>
-        <div className="pictureContainer"></div>
-        <div className="pictureContainer"></div>
+        <div className="pictureContainer">
+            <h2>Contrast slider</h2>
+        </div>
+        <div className="pictureContainer">
+            <h2>Vanishing slider</h2>
+        </div>
+        <div className="pictureContainer">
+            <h2>Image magnifiert</h2>
+            {/*https://dev.to/anxiny/create-an-image-magnifier-with-react-3fd7*/}
+        </div>
+        <div className="pictureContainer">
+            Gallery
+        </div>
       </div>
     </div>
   );

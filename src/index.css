@@ -54,7 +54,7 @@ code {
   }
 
   .pictureContainer {
-    @apply w-full h-[40rem] bg-white ;
+    @apply w-full h-[35rem] bg-white ;
   }
 
   .titleWrapper {
