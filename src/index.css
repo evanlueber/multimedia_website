@@ -30,6 +30,6 @@ code {
   }
 
   .navItem {
-    @apply bg-black bg-opacity-70 rounded p-2 w-1/5 flex justify-center items-center;
+    @apply bg-black backdrop-blur-lg bg-opacity-70 rounded p-2 w-1/5 flex justify-center items-center;
   }
 }
