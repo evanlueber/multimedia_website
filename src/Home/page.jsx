@@ -22,7 +22,7 @@ const Home = () => {
             <h2>Vanishing slider</h2>
         </div>
         <div className="pictureContainer">
-            <h2>Image magnifiert</h2>
+            <h2>Image magnifier</h2>
             {/*https://dev.to/anxiny/create-an-image-magnifier-with-react-3fd7*/}
         </div>
         <div className="pictureContainer">
