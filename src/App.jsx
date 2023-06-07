@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import './App.css';
+import './index.css';
 import About from './About/page';
 import Contact from './Contact/page'
 import Imprint from './Imprint/page'
 import Offers from './Offers/page'
+import Navigation from './Components/Navigation';
 
 
 function App() {
@@ -11,17 +12,24 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route to="" Component={About} />
-          <Route to="" Component={Contact} />
-          <Route to="" Component={Imprint} />
-          <Route to="" Component={Offers} />
+          <Route path="/" Component={Home} />
+          <Route path="/about" Component={About} />
+          <Route path="/contact" Component={Contact} />
+          <Route path="/imprint" Component={Imprint} />
+          <Route path="/offers" Component={Offers} />
         </Routes>
       </BrowserRouter>
-      <header className="App-header">
-        
-      </header>
     </div>
   );
+}
+
+const Home = () => {
+  return (
+    <header className="App-header">
+        <Navigation />
+    </header>
+  )
+
 }
 
 export default App;

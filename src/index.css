@@ -15,3 +15,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@layer components {
+  .App {
+    @apply bg-bgImg h-screen w-screen bg-cover bg-fixed pt-8;
+  }
+  
+  .App-header {
+    @apply flex justify-center;
+  }
+
+  .navigation {
+    @apply flex bg-[#474035] opacity-80 justify-center items-center gap-20 text-3xl p-5 text-white w-4/5 rounded;
+  }
+
+  .navItem {
+    @apply bg-black bg-opacity-70 rounded p-2 w-1/5 flex justify-center items-center;
+  }
+}
