@@ -20,13 +20,9 @@ code {
   .App {
     @apply flex flex-col items-center bg-bgImg h-screen w-screen bg-cover bg-fixed pt-8;
   }
-  
-  .App-header {
-    @apply backdrop-blur-lg flex justify-center w-4/5;
-  }
 
   .navigation {
-    @apply flex bg-[#474035] opacity-80 justify-center items-center gap-5 text-3xl p-5 text-white min-w-full rounded;
+    @apply flex bg-[#474035] opacity-80 justify-center items-center gap-5 text-3xl p-5 text-white w-4/5 rounded;
   }
 
   .navItem {

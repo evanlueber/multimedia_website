@@ -5,11 +5,13 @@ import Contact from './Contact/page'
 import Imprint from './Imprint/page'
 import Offers from './Offers/page'
 import Navigation from './Components/Navigation';
+import Home from './Home/page';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <Navigation />
         <Routes>
           <Route path="/" Component={Home} />
           <Route path="/about" Component={About} />
@@ -20,15 +22,6 @@ function App() {
       </BrowserRouter>
     </div>
   );
-}
-
-const Home = () => {
-  return (
-    <header className="App-header">
-        <Navigation />
-    </header>
-  )
-
 }
 
 export default App;
