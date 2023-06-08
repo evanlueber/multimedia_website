@@ -17,34 +17,37 @@ const Home = () => {
             </div>
       </div>
         <div className="pictureContainer">
-            <h2>Contrast slider</h2>
+            <h2>CONTRAST SLIDER</h2>
         </div>
         <div className="pictureContainer">
-            <h2>Vanishing slider</h2>
+            <h2>VANISHING SLIDER</h2>
         </div>
         <div className="pictureContainer">
-            <h2>Image magnifier</h2>
-            <div className="imageContainer">
-              <ImageMagnifier
-                width={"350px"}
-                src="/img/weg.jpg"
-              />
+            <h2 className="ideaTitle">IMAGE MAGNIFIER</h2>
+            <div className="images">
+              <div className="imageContainer">
+                <ImageMagnifier
+                  width={"325px"}
+                  src="/img/weg.jpg"
+                />
+              </div>
+              <div className="imageContainer">
+                <ImageMagnifier
+                  width={"325px"}
+                  src="/img/glaskuppel.jpg"
+                />
+              </div>
+              <div className="imageContainer">
+                <ImageMagnifier
+                  width={"325px"}
+                  src="/img/glaskuppe_orangePflanze.jpg"
+                />
+              </div>
             </div>
-            <div className="imageContainer">
-              <ImageMagnifier
-                width={"350px"}
-                src="/img/glaskuppel.jpg"
-              />
-            </div>
-            <div className="imageContainer">
-              <ImageMagnifier
-                width={"350px"}
-                src="/img/glaskuppe_orangePflanze.jpg"
-              />
-            </div>
+            <p className="explanation">Bewegen Sie den Mauszeiger auf eines der Bilder</p>
         </div>
         <div className="pictureContainer">
-            <h2>Gallery</h2>
+            <h2>GALLERY</h2>
         </div>
       </div>
     </div>
