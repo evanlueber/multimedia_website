@@ -77,4 +77,8 @@ code {
   .explanation {
     @apply text-lg font-bold;
   }
+  
+  .sliderIcons {
+    @apply border rounded-full
+  }
 } 
