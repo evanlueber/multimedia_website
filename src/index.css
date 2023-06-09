@@ -63,11 +63,11 @@ code {
   }
 
   .imageContainer {
-    @apply shadow-lg shadow-black border-4 border-[#474035];
+    @apply shadow-lg shadow-black border-4 border-[#474035] w-full;
   }
 
   .images {
-    @apply flex flex-row gap-7;
+    @apply flex flex-row gap-7 w-1/2;
   }
 
   .ideaTitle {
@@ -79,6 +79,14 @@ code {
   }
   
   .sliderIcons {
-    @apply border rounded-full
+    @apply border rounded-full;
+  }
+  
+  .slider {
+    @apply border border-red-700 w-full relative;
+  }
+
+  .sliderImg {
+    @apply absolute top-0 left-0 right-0 bottom-0 h-full;
   }
 } 
