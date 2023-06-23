@@ -5,7 +5,6 @@ import ImageCompareSlider from "../Components/Slider";
 
 const Home = () => {
   return (
-    <div className="page">
       <div className="homePage">
         <Navigation />
         <div className="pictureIdeas">
@@ -115,7 +114,6 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
