@@ -9,6 +9,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: overlay;
 }
 
 code {
@@ -17,6 +18,22 @@ code {
 }
 
 @layer components {
+  body::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  body::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    @apply bg-white rounded;
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    @apply bg-[#D66565];
+  }
+
   .App {
     @apply bg-bgImg min-h-screen w-full bg-cover bg-fixed;
   }
