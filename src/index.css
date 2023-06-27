@@ -27,11 +27,7 @@ code {
   }
 
   body::-webkit-scrollbar-thumb {
-    @apply bg-white rounded;
-  }
-
-  body::-webkit-scrollbar-thumb:hover {
-    @apply bg-[#D66565];
+    @apply bg-[#EEC591] rounded;
   }
 
   .App {
