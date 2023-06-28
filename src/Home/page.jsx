@@ -111,7 +111,7 @@ const Home = () => {
           </p>
         </div>
         <div className="pictureContainer">
-          <h2>GALLERY</h2>
+          <h2 className="ideaTitle">GALLERY</h2>
           <div className="images">
             <div className="imageContainer">
               <Gallery
