@@ -114,10 +114,53 @@ const Home = () => {
           <h2>GALLERY</h2>
           <div className="images">
             <div className="imageContainer">
-              
+              <Gallery
+                boxstyle={{
+                  width: "325px",
+                  margin: "auto",
+                }}
+                images={[
+                  "/img/weisse_blume.jpg",
+                  "/img/rote_blume.jpg",
+                  "/img/orange_blumen.jpg",
+                  "/img/knallrote_blume.jpg",
+                ]}
+              />
             </div>
-            <p className="explanation">Schauen sie sich die gallery an</p>
+            <div className="imageContainer">
+              <Gallery
+                boxstyle={{ width: "325px", margin: "auto" }}
+                images={[
+                  "/img/komischer_kaktus.jpg",
+                  "/img/langeStacheln_kaktus.jpg",
+                  "/img/kaktus.jpg",
+                ]}
+              />
+            </div>
+            <div className="imageContainer">
+              <Gallery
+                boxstyle={{ width: "325px", margin: "auto" }}
+                images={[
+                  "img/tannenbaum.jpg",
+                  "img/pinke_baumblumen.jpg",
+                  "/img/blaetterAmStamm.jpg",
+                ]}
+              />
+            </div>
+            <div className="imageContainer">
+              <Gallery
+                boxstyle={{ width: "325px", margin: "auto" }}
+                images={[
+                  "img/palmenpflanze.jpg",
+                  "/img/groesseBlaetter.jpg",
+                ]}
+              />
+            </div>
           </div>
+          <p className="explanation">
+            Schauen Sie sich die Galerie mit Hilfe der Pfeile auf den Slideshows
+            oder der Pfeiltasten auf ihrer Tastatur an
+          </p>
         </div>
       </div>
     </div>
