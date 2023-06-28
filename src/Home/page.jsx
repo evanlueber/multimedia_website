@@ -132,8 +132,9 @@ const Home = () => {
                 boxstyle={{ width: "325px", margin: "auto" }}
                 images={[
                   "/img/komischer_kaktus.jpg",
-                  "/img/langeStacheln_kaktus.jpg",
                   "/img/kaktus.jpg",
+                  "img/palmenpflanze.jpg",
+                  "/img/groesseBlaetter.jpg",
                 ]}
               />
             </div>
@@ -144,15 +145,6 @@ const Home = () => {
                   "img/tannenbaum.jpg",
                   "img/pinke_baumblumen.jpg",
                   "/img/blaetterAmStamm.jpg",
-                ]}
-              />
-            </div>
-            <div className="imageContainer">
-              <Gallery
-                boxstyle={{ width: "325px", margin: "auto" }}
-                images={[
-                  "img/palmenpflanze.jpg",
-                  "/img/groesseBlaetter.jpg",
                 ]}
               />
             </div>
