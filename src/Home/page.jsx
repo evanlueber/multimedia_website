@@ -134,7 +134,7 @@ const Home = () => {
                   "/img/komischer_kaktus.jpg",
                   "/img/kaktus.jpg",
                   "img/palmenpflanze.jpg",
-                  "/img/gross_blaetter.jpg",
+                  "/img/grosse_blaetter.jpg",
                 ]}
               />
             </div>
