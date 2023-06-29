@@ -140,7 +140,7 @@ code {
   }
 
   .title {
-    @apply bg-black opacity-70 rounded flex justify-center text-white text-5xl text-center tracking-widest leading-normal p-2;
+    @apply bg-black bg-opacity-70 rounded flex justify-center text-white text-5xl text-center tracking-widest leading-normal p-2;
   }
 
   .titleBlur {
