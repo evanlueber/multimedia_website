@@ -155,11 +155,11 @@ code {
     @apply flex flex-col items-center border-t pt-10 text-green-700;
   }
 
-  .offersContent {
+  .pageContent {
     @apply flex flex-row items-center gap-10 w-4/5;
   }
 
-  .openingContainer {
+  .firstContainer {
     @apply bg-black bg-opacity-70 w-full rounded backdrop-blur-md flex flex-col p-2 text-white text-xl leading-normal pt-10 pb-10;
   }
 
@@ -170,11 +170,27 @@ code {
   .offersList {
     @apply flex flex-col justify-center items-center gap-2 pt-5 font-bold text-2xl;
   }
-  .entryContainer {
+  .secondContainer {
     @apply bg-black bg-opacity-70 w-full rounded backdrop-blur-md flex flex-col gap-2 justify-center items-center p-2 text-white text-xl leading-normal pt-10 pb-10 pl-10 pr-10 text-center ;
   }
 
   .entryText {
     @apply pt-3;
+  }
+  
+  .addressList {
+    @apply flex flex-col justify-center items-center gap-2 pt-5 text-start;
+  }
+
+  .redirect {
+    @apply flex flex-row gap-20 border-t pt-10;
+  }
+
+  .instagram {
+    @apply flex
+  }
+
+  .uzhSiteImprint {
+    @apply flex flex-col items-center text-green-700 border-r pr-20;
   }
 }

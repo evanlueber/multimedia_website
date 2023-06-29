@@ -8,8 +8,8 @@ const Offers = () => {
       <div className="title">
         <h1>Unsere Angebote</h1>
       </div>
-      <div className="offersContent">
-        <div className="openingContainer">
+      <div className="pageContent">
+        <div className="firstContainer">
           <h2>Öffnungszeiten</h2>
           <ol className="opening">
             <li>Montag: 07:00 - 19:00</li>
@@ -20,7 +20,7 @@ const Offers = () => {
             <li>Sonntag: 08:00 - 18:00</li>
           </ol>
         </div>
-        <div className="entryContainer">
+        <div className="secondContainer">
           <h2>Eintrittspreise</h2>
           <ol className="offersList">
             <li>Freier Eintritt</li>
