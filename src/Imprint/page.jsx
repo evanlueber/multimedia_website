@@ -20,7 +20,7 @@ const Imprint = () => {
                 <a className="uzhSiteImprint" href="https://www.bg.uzh.ch/de.html">
                   Botanischer Garten UZH
                 </a>
-                <a className="instagram" href="https://www.instagram.com/botanischergarten_uzh/"><AiOutlineInstagram size={30}/></a>
+                <a className="instagram" href="https://www.instagram.com/botanischer_garten_zurich/"><AiOutlineInstagram size={30}/></a>
             </div>
           </ol>
         </div>
