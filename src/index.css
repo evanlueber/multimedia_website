@@ -193,4 +193,8 @@ code {
   .uzhSiteImprint {
     @apply flex flex-col items-center text-green-700 border-r pr-20;
   }
+
+  .map {
+    @apply rounded box-border border-4 border-[#474035] shadow-lg shadow-black;
+  }
 }
