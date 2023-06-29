@@ -123,10 +123,6 @@ code {
     @apply mr-6;
   }
 
-  .title {
-    @apply  bg-[#474035] opacity-80 rounded flex justify-center text-white text-5xl text-center tracking-widest leading-normal p-2;
-  }
-
   .page {
     @apply flex flex-col justify-center items-center gap-10 pb-10;
   }
@@ -143,11 +139,11 @@ code {
     @apply w-4/5 backdrop-blur-md rounded;
   }
 
-  .aboutTitle {
+  .title {
     @apply bg-black opacity-70 rounded flex justify-center text-white text-5xl text-center tracking-widest leading-normal p-2;
   }
 
-  .aboutTitleBlur {
+  .titleBlur {
     @apply w-4/5 backdrop-blur-md rounded;
   }
 

@@ -5,8 +5,8 @@ const About = () => {
   return (
     <div className="page">
       <Navigation />
-      <div className="aboutTitleBlur">
-        <div className="aboutTitle">
+      <div className="titleBlur">
+        <div className="title">
           <h1>Über uns</h1>
         </div>
       </div>
