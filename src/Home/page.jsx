@@ -10,11 +10,10 @@ const Home = () => {
       <Navigation />
       <div className="pictureIdeas">
         <div className="titleWrapper">
-          <div className="homeContainerBlur">
+          <div className="containerBlur">
             <div className="titleContainer">
               <h1>
                 Willkommen auf der Multimedia Website des Botanischen Gartens
-                der Universität Zürich
               </h1>
             </div>
           </div>
