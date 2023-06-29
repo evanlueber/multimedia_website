@@ -154,4 +154,8 @@ code {
   .aboutMidContent {
     @apply flex flex-col items-end pl-80 pr-10 text-right
   }
+
+  .uzhSite {
+    @apply flex flex-col items-center border-t pt-10 text-green-700;
+  }
 } 

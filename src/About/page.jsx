@@ -27,9 +27,10 @@ const About = () => {
           <div className="aboutContent">
               <h2>Ziel dieser Seite</h2>
               <p>
-                Das Ziel dieser Website ist es, ein paar der wundervollen Pflanzen zu präsentieren und unteranderem meine Programmierfähigkeiten weiter zuentwickeln. Ausserdem konnte ich durch das Bearbeiten der Bilder meine Kompetenz im Thema Bilderbearbeitung steigern.
+                Das Ziel dieser Website ist es, ein paar der wundervollen Pflanzen zu präsentieren und unteranderem meine Programmierfähigkeiten weiter zuentwickeln. Ausserdem konnte ich durch das Bearbeiten der Bilder meine Kompetenz im Thema Bilderbearbeitung steigern. Diese Website beinhaltet Kontent des Botanischen Gartens der Universität Zürich. Die Bilder wurden von mir gemacht und der Text wurde von mir geschrieben.
               </p>
           </div>
+          <a className="uzhSite" href="https://www.bg.uzh.ch/de.html">Botanischer Garten UZH</a>
         </div>
       </div>
     </div>
