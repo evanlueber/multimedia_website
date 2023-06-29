@@ -1,5 +1,6 @@
 import React from "react";
 import Navigation from "../Components/Navigation";
+import { AiOutlineInstagram } from "react-icons/ai";
 
 const About = () => {
   return (
@@ -40,9 +41,29 @@ const About = () => {
               mir geschrieben.
             </p>
           </div>
-          <a className="uzhSite" href="https://www.bg.uzh.ch/de.html">
-            Botanischer Garten UZH
-          </a>
+          <div className="credits">
+            <h2>Credits</h2>
+            <div className="creditContent">
+              <p>
+                Fotograf: Till Grezet
+                <a
+                  className="instagramAbout"
+                  href="https://www.instagram.com/till.grezet/"
+                >
+                  <AiOutlineInstagram size={30} />
+                </a>
+              </p>
+              <p className="creditContentTag">
+                Developer: Evan Lüber
+                <a
+                  className="instagramAbout"
+                  href="https://www.instagram.com/evan._nico/"
+                >
+                  <AiOutlineInstagram size={30} />
+                </a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

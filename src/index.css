@@ -206,4 +206,20 @@ code {
   .arrivalContainer {
     @apply bg-black bg-opacity-70 w-full rounded backdrop-blur-md flex flex-col gap-5 justify-center items-center text-white text-xl leading-normal pt-11 pb-11 pl-10 pr-10 text-center;
   }
+
+  .credits {
+    @apply flex flex-col items-center justify-center border-t gap-5 pt-5;
+  }
+
+  .creditContent {
+    @apply flex flex-row items-center justify-center gap-20;
+  }
+
+  .instagramAbout {
+    @apply flex justify-center;
+  }
+
+  .creditContentTag {
+    @apply border-l pl-16;
+  }
 }
