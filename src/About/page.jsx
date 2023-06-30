@@ -9,8 +9,7 @@ const About = () => {
       <div className="title">
         <h1>Über uns</h1>
       </div>
-      <div className="aboutContentBlur">
-        <div className="aboutContentContainer">
+        <div className="contentContainer">
           <div className="aboutContent">
             <h2>Autor</h2>
             <p>
@@ -66,7 +65,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
