@@ -25,4 +25,4 @@ Ich Entscheide mich für **Tailwind**
 - Lightroom
 - GIMP
 
-Ich entscheide mich für **Lightroom**
+Ich entscheide mich für **Photoshop**
