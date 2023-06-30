@@ -15,7 +15,7 @@ const About = () => {
           <div className="aboutContent">
               <h2>Autor</h2>
               <p>
-                Mein Name ist Evan Lüber und ich bin Schüler an der Kantonschule Büelrain Winterhur, an der ich mache dort die Ausbildung der Informatikmittelschule. Ich bin Programmierer, bin jedoch nicht nur informativ interessiert, sondern mache auch viel Sport.
+                Mein Name ist Evan Lüber und ich bin Schüler an der Kantonschule Büelrain Winterhur, an der ich die Ausbildung der Informatikmittelschule mache. Ich bin Programmierer, bin jedoch nicht nur informativ interessiert, sondern mache auch viel Sport.
               </p>
           </div>
           <div className="aboutMidContent">
