@@ -18,6 +18,8 @@ const Contact = () => {
       )
       .then(
         (result) => {
+          alert("Nachricht erfolgreich gesendet!");
+          form.current.reset();
           console.log(result.text);
         },
         (error) => {
@@ -28,7 +30,7 @@ const Contact = () => {
   return (
     <div className="page">
       <Navigation />
-      <div className="title">
+      <div className="contactTitle">
         <h1>Kontakt</h1>
       </div>
       <div className="contactContentContainer">
@@ -49,7 +51,7 @@ const Contact = () => {
               <textarea className="messageInput" name="message" />
             </div>
           </div>
-          <input className="submit" type="submit" value="Send" />
+          <button className="submit" type="submit" value="Send">Senden</button>
         </form>
       </div>
     </div>
