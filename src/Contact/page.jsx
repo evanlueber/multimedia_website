@@ -33,20 +33,24 @@ const Contact = () => {
       </div>
       <div className="contactContentContainer">
         <form className="contactContent" ref={form} onSubmit={sendEmail}>
-          <div className="fullInput">
-            <label>Name</label>
-            <input className="contactInput" type="text" name="user_name" />
+          <div className="formWithoutSubmit">
+            <div className="name_mail">
+              <div className="fullInput">
+                <label>Name</label>
+                <input className="contactInput" type="text" name="user_name" />
+              </div>
+              <div className="fullInput">
+                <label>Email</label>
+                <input className="contactInput" type="email" name="user_email" />
+              </div>
+            </div>
+            <div className="message">
+              <label>Nachricht</label>
+              <textarea className="messageInput" name="message" />
+            </div>
           </div>
-          <div className="fullInput">
-            <label>Email</label>
-            <input className="contactInput" type="email" name="user_email" />
-          </div>
+          <input className="submit" type="submit" value="Send" />
         </form>
-        <div className="message">
-          <label>Nachricht</label>
-          <textarea className="messageInput" name="message" />
-        </div>
-        <input className="submit" type="submit" value="Send" />
       </div>
     </div>
   );

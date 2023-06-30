@@ -219,31 +219,31 @@ code {
     @apply border-l pl-16;
   }
 
-  .contactContent {
-    @apply flex flex-col items-center gap-5;
+  .contactContentContainer {
+    @apply bg-black bg-opacity-70 rounded w-4/5 backdrop-blur-md flex flex-col items-center justify-center gap-10 text-white text-xl leading-normal p-2 pb-10 pt-10;
   }
 
-  .contactInput {
-    @apply rounded w-full;
+  .contactContent {
+    @apply flex flex-col items-center gap-10;
+  }
+
+  .name_mail {
+    @apply flex flex-col gap-5;
   }
 
   .fullInput {
-    @apply flex flex-col;
+    @apply flex flex-col
   }
 
-  .contactContentContainer {
-    @apply bg-black bg-opacity-70 rounded w-4/5 backdrop-blur-md flex flex-wrap items-center justify-center gap-10 text-white text-xl leading-normal p-2 pb-10 pt-10;
-  }
+  .formWithoutSubmit {
+    @apply flex flex-row gap-10;
+  }  
 
   .message {
-    @apply flex flex-col;
+    @apply flex flex-col
   }
 
   .messageInput {
-    @apply flex flex-col items-center gap-5 rounded h-28
-  }
-
-  .submit {
-    @apply pt-6;
+    @apply h-full bg-transparent border border-white rounded;
   }
 }
