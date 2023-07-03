@@ -14,8 +14,8 @@ const About = () => {
             <h2>Autor</h2>
             <p>
               Mein Name ist Evan Lüber und ich bin Schüler an der Kantonschule
-              Büelrain Winterhur, an der ich mache dort die Ausbildung der
-              Informatikmittelschule. Ich bin Programmierer, bin jedoch nicht
+              Büelrain Winterhur, an der ich die Ausbildung der
+              Informatikmittelschule mache. Ich bin Programmierer, bin jedoch nicht
               nur informativ interessiert, sondern mache auch viel Sport.
             </p>
           </div>
@@ -36,7 +36,7 @@ const About = () => {
               weiter zuentwickeln. Ausserdem konnte ich durch das Bearbeiten der
               Bilder meine Kompetenz im Thema Bilderbearbeitung steigern. Diese
               Website beinhaltet Kontent des Botanischen Gartens der Universität
-              Zürich. Die Bilder wurden von mir gemacht und der Text wurde von
+              Zürich. Die Bilder wurden selbst gemacht und der Text wurde von
               mir geschrieben.
             </p>
           </div>
