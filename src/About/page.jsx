@@ -33,7 +33,7 @@ const About = () => {
             <p>
               Das Ziel dieser Website ist es, ein paar der wundervollen Pflanzen
               zu präsentieren und unteranderem meine Programmierfähigkeiten
-              weiter zuentwickeln. Ausserdem konnte ich durch das Bearbeiten der
+              weiterzuentwickeln. Ausserdem konnte ich durch das Bearbeiten der
               Bilder meine Kompetenz im Thema Bilderbearbeitung steigern. Diese
               Website beinhaltet Kontent des Botanischen Gartens der Universität
               Zürich. Die Bilder wurden selbst gemacht und der Text wurde von
